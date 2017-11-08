@@ -1,0 +1,11 @@
+﻿---
+BasedOnStyle: Google
+AlignTrailingComments: 'true'
+ColumnLimit: '125'
+Language: Cpp
+NamespaceIndentation: Inner
+SortIncludes: 'true'
+SpacesBeforeTrailingComments: '2'
+SpacesInAngles: 'false'
+TabWidth: '2'
+...

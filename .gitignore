@@ -1,0 +1,19 @@
+# Build directory
+/build
+*.o
+*.a
+*.dir
+
+# Archives
+*.tar.gz
+*.tgz
+*.tar
+*.gz
+
+# Make files
+CMakeCache.txt
+/CmakeFiles
+*CMakeFiles
+Makefile
+*.make
+cmake_install.cmake
