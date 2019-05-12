@@ -67,6 +67,9 @@ class time_stepping {
   // Get the degree of the time-stepping scheme
   size_t get_temporal_degree() { return temporal_degree; }
   
+  
+  virtual ~time_stepping() { }
+  
  protected:
   scalar_type delta_t;
   size_t temporal_degree; 
