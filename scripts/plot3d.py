@@ -85,12 +85,9 @@ if (len(x) > threshold):
 # Plot the figure
 fig = plt.figure()
 ax = fig.gca(projection='3d')
-ax.set_axis_bgcolor('white')
 surf = ax.plot_trisurf(x, y, z, cmap = cm.jet, edgecolor=args.edgecolour) 
 ax.set_zlim3d(min(0, 1.01 * np.min(z)), 1.01 * np.max(z))
 ax.tick_params(axis=u'both', which=u'both',length=0)
-
-#fig.colorbar(surf)
 
 plt.subplots_adjust(left=0, right=1, top=1, bottom=0)
 
