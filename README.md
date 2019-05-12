@@ -67,7 +67,7 @@ plot3d.py ./output/peaceman/concentration.vtu
 ```
 which will produce a plot that looks like this:
 
-![Concentration](https://s1.postimg.org/6xkwi4barj/concentration.png)
+![Concentration](https://danielanderson.net/images/hho-peaceman/concentration.png)
 
 There are also the scripts `contour3d.py` which produces contour plots, and the script `lineplot.py` which produces line graphs for visualising the results of tests that measure convergence or timing. For example, writing
 
@@ -77,7 +77,7 @@ lineplot.py ./output/convergence/Isotropic_diffusion_fluxes-Triangular_meshes
 
 from the UnitTest build directory after running the Darcy flux unit tests will produce a convergence result like the following:
 
-![Convergence](https://s1.postimg.org/1qdlivh2bz/convergence.png)
+![Convergence](https://danielanderson.net/images/hho-peaceman/convergence.png)
 
 ## Acknowledgements ##
 
@@ -85,8 +85,8 @@ The code for handling the meshes is a prelimary version of what became the [DiSk
 
 ## Licence ##
 
-This code is licenced under the [Mozilla Public License](https://www.mozilla.org/en-US/MPL/).
+This code is licenced under the [Mozilla Public License](https://www.mozilla.org/en-US/MPL/). If you use this code or parts of it for scientific publications, you are required to cite it as following:
 
-If you use this code or parts of it for scientific publications, you are required to cite it as following:
-
-> An arbitrary order scheme on generic meshes for miscible displacements in porous media. D Anderson, J Droniou, *preprint*, http://arxiv.org/abs/1707.04038
+> An arbitrary order scheme on generic meshes for miscible displacements in porous media.
+> Daniel Anderson, Jerome Droniou
+> *SIAM Journal on Scientific Computing*, 40 (4), B1020-B1054, 2018
